@@ -19,8 +19,35 @@
 
 
 
-let someNumber = 44
+// let someNumber = 44
 
-let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// let stringNumber = String(someNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+
+// let stringId = "Hello"
+
+// let stringConversion = Number(stringId)
+
+// console.log(stringConversion)
+// console.log(typeof stringConversion)
+
+
+
+// ****************************Operation*************************
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue)
+
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2%2);
+
+// let str1 = "Hello"
+// let str2 = "world"
+
+// console.log(str1 + " " + str2)
