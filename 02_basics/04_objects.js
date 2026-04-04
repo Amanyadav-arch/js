@@ -51,11 +51,24 @@ const users = [
     }
 ]
 
-users[1].email
-console.log(tinderUser)
-console.log(Object.keys(tinderUser)) // returns an array of the keys of the object
-console.log(Object.values(tinderUser)) // returns an array of the values of the object
-console.log(Object.entries(tinderUser)) // returns an array of the key-value pairs of the object, each key-value pair is an array of two elements, the first element is the key and the second element is the value
+// users[1].email
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser)) // returns an array of the keys of the object
+// console.log(Object.values(tinderUser)) // returns an array of the values of the object
+// console.log(Object.entries(tinderUser)) // returns an array of the key-value pairs of the object, each key-value pair is an array of two elements, the first element is the key and the second element is the value
 
-console.log(tinderUser.hasOwnProperty("isPopula")) // returns true if the object has the specified property, false otherwise   
+// console.log(tinderUser.hasOwnProperty("isPopula")) // returns true if the object has the specified property, false otherwise   
 
+const classStudent = {
+    name: "aman",
+    age: 22,
+    isEnrolled: true,
+}
+
+const {isEnrolled: enrolled} = classStudent 
+console.log(enrolled)
+
+// **********************************api JSON************************************************
+// api is an application programming interface that allows different software applications to communicate with each other, it defines the methods and data formats that applications can use to communicate with each other, it is a set of rules and protocols that allows different software applications to interact with each other, it is often used to access web services and retrieve data from a server.
+
+// json is an oject notation that is used to store and exchange data, it is a lightweight data format that is easy to read and write for humans and machines, it is based on a subset of the JavaScript programming language, it is often used to transmit data between a server and a web application as an alternative to XML.
