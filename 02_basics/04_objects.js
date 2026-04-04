@@ -58,3 +58,4 @@ console.log(Object.values(tinderUser)) // returns an array of the values of the 
 console.log(Object.entries(tinderUser)) // returns an array of the key-value pairs of the object, each key-value pair is an array of two elements, the first element is the key and the second element is the value
 
 console.log(tinderUser.hasOwnProperty("isPopula")) // returns true if the object has the specified property, false otherwise   
+
