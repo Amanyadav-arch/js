@@ -26,4 +26,11 @@ function loginUserMessage(username) {
     return `${username} just logged in` // it will return the message with the username
 }
 
-console.log(loginUserMessage("aman"))// "Please enter a username" and returns undefined
+// console.log(loginUserMessage("aman"))// "Please enter a username" and returns undefined
+
+
+function calculateCartTotal(...num1) {
+    return num1
+}
+
+console.log(calculateCartTotal(5, 10)) // it will return an array containing the arguments passed to the function
