@@ -1,0 +1,22 @@
+---> Javascript 
+               |_> Synchronous
+               |_> single thread
+
+
+---> Execution context 
+               |_> execute one line of code at a time              
+               |                                           
+               | 
+               |---> console log 1
+               |
+               |
+               |---> console log 2
+               |
+               |
+               |
+               |   ---------        ---------
+                  | call    |      | memory  |
+                  | stack   |      | stack   |
+                   ---------        ---------
+                        
+                  
