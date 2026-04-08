@@ -1,10 +1,11 @@
 ---> Javascript 
-               |_> Synchronous
-               |_> single thread
+               |-> Synchronous
+               |
+               |-> single thread
 
 
 ---> Execution context 
-               |_> execute one line of code at a time              
+               |-> execute one line of code at a time              
                |                                           
                | 
                |---> console log 1
@@ -19,4 +20,7 @@
                   | stack   |      | stack   |
                    ---------        ---------
                         
-                  
+                  Blocking Code                 vs               Blocking code
+                  |->Block the flow of                           |->Does not block Execution
+                     program                                          |-> Read file Async
+                     |->Read file Sync
